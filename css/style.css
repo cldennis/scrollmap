@@ -1,0 +1,47 @@
+body{
+    font-family: 'Alegreya', serif;
+    color: #390909; /* Set the text color for all body text */
+
+}
+
+.row {
+    margin-top: 0;
+    margin-bottom: 8.5rem; /* Or set to a smaller value */
+}
+
+p{
+    font-size:25px;  
+    color: #390909; /* Set the text color for all body text */
+
+}
+.scrollmap-container {
+    background-color: #f9f6df; /* Replace with your desired color */
+    width: 100%;
+    height: 100%; /* Adjust as needed for full-page scroll */
+    /* overflow-y: scroll; */
+  }
+
+a {
+    color: #390909; /* Set your desired color */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    color: #390909; /* Optional: change color on hover */
+    text-decoration: underline; /* Optional: add underline on hover */
+}
+
+.carousel-item {
+    height: 100vh; /* Adjust to your preferred height */
+}
+
+.carousel-item img {
+    height: 100%; /* Make image take full height of .carousel-item */
+    object-fit: cover; /* Maintains image aspect ratio */
+}
+
+.center-wide iframe.fit {
+    width: 100%;
+    height: 80vh;
+    border: none;
+}
